@@ -1,0 +1,9 @@
+Team Name : The Visioneers
+Institute : Dr. Vishwanath Karad's MIT World Peace University
+Team Members :
+1. Janhavi Adisare - Structural Engineering / Hardware Connections
+2. Disha Agrawal - App Development
+3. Ishom Sharma - Machine Learning / Maths
+4. Anagh Mishra - Embedded Systems
+5. Ameya Nangle - Machine Learning
+6. Rohan Deogaonkar - Research
