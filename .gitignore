@@ -7,3 +7,5 @@ Software/DHARA-Application/android/build/
 *.iml
 
 Software/DHARA-Application/backend/.env
+
+*google-services.json
