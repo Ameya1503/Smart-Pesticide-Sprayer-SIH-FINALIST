@@ -1,0 +1,9 @@
+desktop.ini
+*.docx
+Software/DHARA-Application/backend/node_modules/
+Software/DHARA-Application/.dart_tool/
+Software/DHARA-Application/android/build/
+*.class
+*.iml
+
+Software/DHARA-Application/backend/.env

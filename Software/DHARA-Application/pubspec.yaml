@@ -1,0 +1,61 @@
+name: dhara
+description: Smart Precision Pesticide System - Flutter App
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.17.4
+  firebase_database: ^10.5.2
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+
+  # Networking
+  http: ^1.2.2
+
+  # Realtime Communication
+  web_socket_channel: ^2.3.0
+  mqtt_client: ^10.2.0
+
+  # UI & Fonts
+  google_fonts: ^6.1.0
+  fl_chart: ^0.68.0
+  image_picker: ^1.0.7
+
+  # TFLITE (ONLY THIS, NO HELPER)
+  tflite_flutter: ^0.12.0
+  image: ^3.3.0
+
+  # Camera
+  camera: ^0.10.5+5
+
+
+
+dependency_overrides:
+  tflite_flutter: 0.12.0
+  image: 3.3.0
+  camera: ^0.10.5+5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/models/tomato_model.tflite
